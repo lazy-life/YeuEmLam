@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {}
+
+        .f1 {
+            background-color: #2596be;
+            border: 0;
+            border-radius: 50px;
+            width: 50%;
+            height: 10%;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn1:hover {
+            background-color: #6c25be;
+        }
+
+        .btn1 {
+            background-color: #2596be;
+            border: 0;
+            border-radius: 50px;
+            width: 50%;
+            height: 10%;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"
+        style="width: 100%; height: 100vh; text-align: center; display: flex; justify-content: center; align-items: center;">
+        <!-- <h1 style="color: #071e26; font-size: 50px;">Welcome to the world of love</h1> -->
+        <!-- <form action="#" method="post" class="f1"> -->
+            <button type="submit" class="btn1" onclick="login()">Login to continue</button>
+        <!-- </form> -->
+    </div>
+    <script>
+        function login(){
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+
+</html>
